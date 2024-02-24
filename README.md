@@ -1,28 +1,27 @@
-Script de Instalação de Bibliotecas Python
-Este script simplificado visa automatizar a instalação de várias bibliotecas Python usando o gerenciador de pacotes pip. Antes de seguir as instruções, certifique-se de ter o Python e o pip instalados no seu sistema.
+**Instalador de Bibliotecas Python**
 
-Instruções de Uso (Windows)
-Baixe o Script:
+Este script em Python fornece uma interface gráfica simples para instalar várias bibliotecas Python com suas versões específicas. Ele utiliza a biblioteca Tkinter para criar a interface.
 
-Baixe o script de instalação (install_libraries.bat) para o seu sistema.
-Abra o Command Prompt ou PowerShell:
+### Requisitos
+- Python 3.x instalado no sistema.
 
-Abra o Command Prompt ou PowerShell no Windows.
-Navegue até o Diretório do Script:
+### Como Usar
+1. Clone ou baixe este repositório em seu ambiente local.
+2. Certifique-se de que o Python esteja instalado e acessível no seu ambiente de execução.
+3. Execute o script `library_installer.py` usando o Python.
 
-Utilize o comando cd para navegar até o diretório onde o script está localizado.
-Execute o Script:
+### Funcionalidades
+- Selecione as bibliotecas desejadas com suas versões específicas.
+- Instale as bibliotecas clicando no botão "Instalar Selecionadas".
+- Atualize a lista de bibliotecas disponíveis clicando no botão "Atualizar Lista".
+- Selecione ou desmarque todas as bibliotecas com os botões correspondentes.
+- Visualize o log de instalação clicando no botão "Ver Log de Instalação".
 
-Execute o script usando o seguinte comando:
-batch
-Copy code
-install_libraries.bat
-Acompanhe a Execução:
+### Observações
+- Certifique-se de ter uma conexão com a internet para baixar e instalar as bibliotecas.
+- O log de instalação será salvo no arquivo `installation_log.txt`.
+- Certifique-se de ter as permissões necessárias para instalar bibliotecas no seu ambiente Python.
 
-O script começará a instalar as bibliotecas. Acompanhe a saída no terminal para verificar mensagens de erro ou sucesso.
-Ajustes Adicionais (Opcional):
+**Aviso**: Este script é fornecido "no estado em que se encontra", sem garantias de qualquer tipo. Use por sua conta e risco.
 
-Edite o script conforme necessário para ajustar versões específicas de bibliotecas ou adicionar/configurar dependências adicionais.
-Observações
-Certifique-se de ter permissões adequadas para executar scripts no seu sistema.
-Se enfrentar problemas, verifique se as dependências de cada biblioteca estão satisfeitas.
+Espero que isso ajude! Se precisar de mais assistência, sinta-se à vontade para perguntar.
